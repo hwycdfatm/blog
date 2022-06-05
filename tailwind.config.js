@@ -11,6 +11,15 @@ module.exports = {
 			backgroundColor: {
 				primary: '#04293A',
 				secondary: '#142F43',
+				puple: '#8326d4',
+			},
+			fontFamily: {
+				ntr: ['NTR', 'sans-serif'],
+				hammer: ['"Hammersmith One"', 'sans-serif'],
+			},
+			backgroundImage: {
+				light: 'url(../public/bg-light.jpg)',
+				dark: 'url(../public/bg-dark.jpg)',
 			},
 		},
 	},

@@ -11,10 +11,8 @@ const ScrollToTopBtn = () => {
 	return (
 		<button
 			onClick={scrollToTop}
-			className={`fixed bottom-8 right-8 ${
-				!isScroll && scrollTop > 200
-					? 'opacity-1 visible'
-					: 'invisible opacity-0'
+			className={`fixed duration-300 right-8 ${
+				!isScroll && scrollTop > 200 ? 'bottom-8' : '-bottom-8'
 			} z-50`}
 		>
 			<svg
