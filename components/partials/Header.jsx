@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className='pt-10 pb-3 md:pt-20 md:pb-5 transition-all duration-300 w-full text-center'>    
             <Link href='/'>
-                <a className='tlt text-6xl md:text-9xl font-hammer font-bold tracking-wide hover:tracking-[1.2rem] bg-[url(../public/images/logo.jpg)]'>Toann</a>
+                <a className='tlt text-6xl md:text-9xl font-hammer font-bold tracking-wide hover:tracking-[1.2rem] bg-logo'>Toann</a>
             </Link>   
             <div className='flex justify-center space-x-10 pt-5'>
                 <Link href='/post'>

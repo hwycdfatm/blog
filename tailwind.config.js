@@ -18,8 +18,7 @@ module.exports = {
 				hammer: ['"Hammersmith One"', 'sans-serif'],
 			},
 			backgroundImage: {
-				light: 'url(../public/bg-light.jpg)',
-				dark: 'url(../public/bg-dark.jpg)',
+				logo: 'url(/public/images/logo.jpg)',
 			},
 		},
 	},
