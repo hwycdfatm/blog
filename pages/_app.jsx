@@ -4,6 +4,7 @@ import NextNProgress from "nextjs-progressbar";
 import Header from '../components/partials/Header'
 import Footer from '../components/partials/Footer'
 import ScrollToTopBtn from '../utils/scrollToTopBtn';
+import Seo from '../utils/Seo';
 import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
 
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
         <NextNProgress color="#8326d4" options={{ showSpinner: false }} />
+        <Seo/>
         <Header/>
         <main className='py-5 px-5 bg-white dark:bg-slate-700 transition-all' >
           <div className='max-w-3xl mx-auto'>
