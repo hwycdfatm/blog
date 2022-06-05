@@ -17,9 +17,6 @@ module.exports = {
 				ntr: ['NTR', 'sans-serif'],
 				hammer: ['"Hammersmith One"', 'sans-serif'],
 			},
-			backgroundImage: {
-				logo: 'url(/static/images/logo.jpg)',
-			},
 		},
 	},
 	plugins: [],
